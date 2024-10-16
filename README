@@ -1,0 +1,30 @@
+БОТ ДЛЯ ПОЛУЧЕНИЯ ПОГОДЫ ИЗ ОПРЕДЕЛЕННОГО ГОРОДА
+БОТ ВЫДАЕТ: ТЕМПЕРАТУРУ, ОЩУЩЕНИЕ ТЕМПЕРАТУРЫ, ПОГОДУ И СКОРОСТЬ ВЕТРА
+
+ДЛЯ ЗАПУСКА ТРЕБУЕТСЯ:
+СОЗДАТЬ ВИРТУАЛЬНОЕ ОКРУЖЕНИЕ
+WINDOWS: 
+python -m venv venv
+АКТИВИРУЕМ ВИРТУАЛЬНОЕ ОКРУЖЕНИЕ
+venv\Scripts\activate.bat
+ЗАГРУЖАЕМ НУЖНЫЕ НАМ ЗАВИСИМОСТИ
+pip install -r requirements.txt
+ЗАПУСКАЕМ БОТА
+python main.py
+
+LINUX:
+ЕСЛИ PYTHON НЕ УСТАНОВЛЕН
+sudo apt update
+sudo apt install python3 python3-pip python3-venv
+СОЗДАЕМ ВИРТУАЛЬНОЕ ОКРУЖЕНИЕ
+python3 -m venv venv
+АКТИВИРУЕМ ВИРТУАЛЬНОЕ ОКРУЖЕНИЕ
+source venv/bin/activate
+ЗАГРУЖАЕМ НУЖНЫЕ НАМ ЗАВИСИМОСТИ
+pip install -r requirements.txt
+ЗАПУСКАЕМ БОТА
+python main.py
+
+
+
+
